@@ -13,7 +13,6 @@ from pathlib import Path
 
 import duckdb
 
-
 def qi(s):
     return '"' + s.replace('"', '""') + '"'
 
